@@ -1,8 +1,18 @@
+public/uploads/**
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+.sass-cache/
+.rails_footnotes
+Guardfile
+## https://github.com/github/gitignore
+
+# Rails.gitignore
 *.rbc
 *.sassc
 .sass-cache
 capybara-*.html
-.rspec
 /.bundle
 /vendor/bundle
 /log/*
@@ -12,5 +22,57 @@ capybara-*.html
 /coverage/
 /spec/tmp/*
 **.orig
+config/*.yml
 rerun.txt
 pickle-email-*.html
+
+# Global/IntelliJ.gitignore
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Global/TextMate.gitignore
+*.tmproj
+*.tmproject
+tmtags
+
+# Global/Eclipse.gitignore
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# Global/OSX.gitignore
+.DS_Store
+Icon?
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Global/Archives.gitignore
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.zip
+*.bzip
+
